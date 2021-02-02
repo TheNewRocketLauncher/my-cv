@@ -1,13 +1,63 @@
+:root {
+    --c-black: #0B0C10;
+    --c-black_light: #1F2833;
+    --c-gray_light: #C5C6C7;
+    --c-gray_dark: #45A29E;
+    --c-white: #66FCF1;
+    --c-blue: #5AB9EA;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.bg--black {
+    background-color: var(--c-black);
+}
+
+.bg--light_black {
+    background-color: var(--c-black_light);
+}
+
+.bg--gray_dark {
+    background-color: var(--c-gray_dark);
+}
+
+.bg--gray_light {
+    background-color: var(--c-gray_light);
+}
+
+.bg--white {
+    background-color: var(--c-white);
+}
+
+.--c-white {
+    color: var(--c-white);
+}
+
+.--c-gray_dark {
+    color: var(--c-gray_dark);
+}
+
+.--c-gray_light {
+    color: var(--c-gray_light);
+}
+
+.--c-blue {
+    color: var(--c-blue);
+}
+
+button {
+    outline: none;
 }
